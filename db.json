@@ -1,0 +1,184 @@
+{
+  "articleList": [
+    {
+      "codeArticle": "5555",
+      "designation": "Pince",
+      "pu": "4",
+      "quantite": "45",
+      "quantiteMin": "10",
+      "emplacement": "Magasin1",
+      "unite": "pièce",
+      "famille": "mécanique",
+      "id": 14
+    },
+    {
+      "codeArticle": "5000",
+      "designation": "Filtre",
+      "pu": "18",
+      "quantite": "15",
+      "quantiteMin": "5",
+      "emplacement": "Magasin2",
+      "unite": "pièce",
+      "famille": "hydraulyque",
+      "id": 15
+    },
+    {
+      "codeArticle": "6001",
+      "designation": "Clavette",
+      "pu": "15",
+      "quantite": "50",
+      "quantiteMin": "15",
+      "emplacement": "Magasin1",
+      "unite": "pièce",
+      "famille": "mécanique",
+      "id": 16
+    },
+    {
+      "codeArticle": "2001",
+      "designation": "Cable de cuivre",
+      "pu": "15",
+      "quantite": "500",
+      "quantiteMin": "50",
+      "emplacement": "Magasin1",
+      "unite": "m",
+      "famille": "électrique",
+      "id": 17
+    },
+    {
+      "codeArticle": "1001",
+      "designation": "Rondelle",
+      "pu": "0.5",
+      "quantite": "700",
+      "quantiteMin": "100",
+      "emplacement": "Magasin2",
+      "unite": "pièce",
+      "famille": "mécanique",
+      "id": 18
+    },
+    {
+      "codeArticle": "1002",
+      "designation": "20",
+      "pu": "42",
+      "quantite": "12",
+      "quantiteMin": "20",
+      "emplacement": "Magasin2",
+      "unite": "pièce",
+      "famille": "mécanique",
+      "id": 19
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "Ayachi Skander ",
+      "mobile": 56050915,
+      "email": "ayachiskander44@gmail.com",
+      "password": "00000",
+      "id": 1
+    },
+    {
+      "fullname": "Aref Ayachi",
+      "mobile": 20000000,
+      "email": "aref@gmail.com",
+      "password": "55555",
+      "id": 2
+    },
+    {
+      "fullname": "ayachi ameni",
+      "mobile": 51032860,
+      "email": "ameni@gmail.com",
+      "password": "ameni",
+      "id": 3
+    },
+    {
+      "fullname": "Ayachi Skander",
+      "mobile": 56050915,
+      "email": "ayachi50@gmail.com",
+      "password": "1",
+      "confirmpassword": "11",
+      "id": 4
+    }
+  ],
+  "machineList": [
+    {
+      "idM": "M20",
+      "coutImmobilisation": "5000",
+      "compteur": "400",
+      "typeMachine": "chargeuse",
+      "secteur": "emballage",
+      "id": 3
+    },
+    {
+      "idM": "M701",
+      "coutImmobilisation": "4200",
+      "compteur": "1200",
+      "typeMachine": "chargeuse",
+      "secteur": "emballage",
+      "id": 4
+    },
+    {
+      "idM": "M001",
+      "coutImmobilisation": "60000",
+      "compteur": "2000",
+      "typeMachine": "camion",
+      "secteur": "transport",
+      "id": 5
+    },
+    {
+      "idM": "M10",
+      "coutImmobilisation": "4000",
+      "compteur": "650",
+      "typeMachine": "camion",
+      "secteur": "transport",
+      "id": 6
+    }
+  ],
+  "panneList": [],
+  "intervenantList": [
+    {
+      "codeIntervenant": "250",
+      "nom": "Salmen",
+      "prenom": "Ayachi",
+      "numTel": 2022224,
+      "fonction": "Electricien",
+      "service": "electrique",
+      "coutH": "45",
+      "type": "externe",
+      "id": 4
+    }
+  ],
+  "interventionList": [
+    {
+      "interventionId": "12",
+      "machineId": "m2",
+      "dateIntervention": "2022-04-03T22:00:00.000Z",
+      "typeDefaut": "Prévention",
+      "typeMaintenance": "Préventif",
+      "codeArticle": "a2",
+      "dureeIntervention": "200",
+      "intervenant": "Ahmed",
+      "id": 1
+    },
+    {
+      "interventionId": "300",
+      "machineId": "m2",
+      "dateIntervention": "2022-05-23T22:00:00.000Z",
+      "typeDefaut": "Mauvais fonctionnement",
+      "typeMaintenance": "Correctif",
+      "codeArticle": "a2",
+      "dureeIntervention": "20",
+      "intervenant": "Salah",
+      "id": 2
+    },
+    {
+      "interventionId": "1002",
+      "machineId": "m2",
+      "dateIntervention": "2022-05-04T22:00:00.000Z",
+      "typeDefaut": "Mauvais fonctionnement",
+      "typeMaintenance": "Correctif",
+      "codeArticle": "Ar100",
+      "dureeIntervention": "42",
+      "intervenant": "Ayachi Skander",
+      "id": 3
+    }
+  ]
+}
